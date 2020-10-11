@@ -9,6 +9,7 @@ html {
 body {
 	font-family: "Montserrat", sans-serif; /* sets google font to whole website*/
 	margin: 0;
+        position: relative
 }
 
 #container {
