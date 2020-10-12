@@ -2,18 +2,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap"); /*import google font*/
 /* every page */
 html {
-	overflow-x: hidden;
 	scroll-behavior: smooth;
 }
 
-html, body {
-  overflow-x: hidden;
+html,
+body {
+	overflow-x: hidden;
 }
 
 body {
 	font-family: "Montserrat", sans-serif; /* sets google font to whole website*/
 	margin: 0;
-        position: relative
+	position: relative;
 }
 
 #container {
@@ -99,8 +99,6 @@ header {
 .bg-green {
 	background-color: rgba(183, 216, 183, 0.5);
 }
-
-/* IMAGES TOO NARROW, NEED UPDATING */
 
 .bg-cover {
 	min-height: 300px;
