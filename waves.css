@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap"); /*import google font*/
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap"); /*import google font*/
+/* every page */
+html {
+	scroll-behavior: smooth;
+}
+
+html,
+body {
+	overflow-x: hidden;
+}
+
+body {
+	font-family: "Montserrat", sans-serif; /* sets google font to whole website*/
+	margin: 0;
+	position: relative;
+}
+
+#container {
+	color: #000; /*main text colour*/
+}
+
+#myname {
+	width: 660px;
+	font-family: "Cinzel Decorative", cursive;
+	padding: 10px;
+	padding-left: 30px;
+	padding-top: 20px;
+}
+
+/* navigation bar  */
+
+.navbar {
+	margin-top: 10px;
+	width: 100%;
+	white-space: nowrap;
+}
+/* couldnt change the light theme but could change primary */
+.navbar-primary li a,
+.navbar-primary nav li {
+	font-size: large;
+	text-decoration: none;
+	color: black;
+}
+
+.navbar-primary a:hover {
+	color: rgb(17, 94, 158);
+}
+
+#menu-icon {
+	margin-top: 5px;
+}
+
+nav ul li {
+	/*any unordered list item in nav*/
+	display: inline;
+	padding-left: 10px;
+	border-left: 2px solid #000;
+	padding-right: 10px;
+	border-bottom: none;
+}
+
+nav li:first-child {
+	/*removes | before 'Home' in nav bar*/
+	border-left: none;
+}
+
+h1 {
+	color: #000;
+}
+
+header {
+	justify-content: space-between;
+}
+
+.sectiontitle {
+	text-align: center;
+	background-color: rgba(220, 235, 243, 0.7);
+	margin-top: 20px;
+	border-radius: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: -8px;
+	padding-left: -8px;
+}
+
+.maintext {
+	margin-top: 20px;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.align-left {
+	text-align: left;
+}
+
+.bg-green {
+	background-color: rgba(183, 203, 216, 0.5);
+}
+
+.bg-cover {
+	min-height: 300px;
+	min-width: 250px;
+	background-size: cover;
+}
+
+p {
+	font-size: 1.2rem;
+}
+
+ul li {
+	font-size: 1.2rem;
+}
+
+#image1 {
+	background: url(../images/waves1.png);
+}
+
+#image2 {
+	background: url(../images/waves2.png);
+}
+
+#image3 {
+	background: url(../images/waves3.png);
+}
+
+/* footer */
+
+footer {
+	border-top: 2px solid #000000;
+	margin: 20px 10px 10px 10px;
+	clear: both;
+	text-align: center;
+	font-style: italic;
+}
+
+footer p {
+	font-size: 0.8em;
+}
+
+footer img {
+	border-radius: 90px;
+	border: 2px solid #000;
+}
+
+footer h2 {
+	margin-top: 15px;
+}
+
+footer h4 {
+	font-size: 0.8rem;
+}
+
+#social-media img {
+	display: inline-block;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 30px;
+}
+
+#twitter {
+	background-color: #3a709c;
+}
+
+#github {
+	background-color: #4e87b6;
+}
+
+#linkedin {
+	background-color: #689eca;
+}
+
+#codepen {
+	background-color: #8cbae0;
+}
